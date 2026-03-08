@@ -10,6 +10,16 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-dancing: var(--font-dancing);
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 16px 2px rgba(139, 92, 246, 0.25), 0 0 40px 4px rgba(34, 211, 238, 0.08);
+  }
+  50% {
+    box-shadow: 0 0 28px 6px rgba(139, 92, 246, 0.45), 0 0 60px 10px rgba(34, 211, 238, 0.18);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
