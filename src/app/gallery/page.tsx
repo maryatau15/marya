@@ -20,10 +20,15 @@ const GalleryScene = dynamic(() => import("./_components/GalleryScene"), {
   ),
 });
 
+const NotificationPopup = dynamic(() => import("./_components/NotificationPopup"), {
+  ssr: false,
+});
+
 export default function Gallery() {
   return (
     <div className="relative w-full h-[100dvh]" style={{ background: "#07070f" }}>
       <GalleryScene />
+      <NotificationPopup />
 
       <Link
         href="/"
