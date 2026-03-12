@@ -21,7 +21,7 @@ const dancingScript = Dancing_Script({
 const name = process.env.NEXT_PUBLIC_BIRTHDAY_NAME ?? "Birthday";
 
 export const metadata: Metadata = {
-  title: `${name}'s Birthday Countdown`,
+  title: `${name}'s Gift 🎁`,
   description: `Counting down to ${name}'s special day`,
 };
 
