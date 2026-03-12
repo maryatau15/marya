@@ -28,8 +28,8 @@ export default function NotificationPopup() {
             className="cursor-pointer flex items-start gap-4 p-4 rounded-2xl border border-purple-500/40 bg-[rgba(15,12,30,0.85)] text-left"
             style={{ boxShadow: '0 6px 30px rgba(0,0,0,0.6), 0 0 20px rgba(139,92,246,0.12)' }}
           >
-            <div className="flex-shrink-0 mt-0.5">
-              <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gradient-to-tr from-purple-700 to-cyan-500 text-white">
+            <div className="shrink-0 mt-0.5">
+              <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-linear-to-tr from-purple-700 to-cyan-500 text-white">
                 🔔
               </div>
             </div>
