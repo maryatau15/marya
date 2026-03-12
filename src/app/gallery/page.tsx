@@ -7,7 +7,7 @@ const GalleryScene = dynamic(() => import("./_components/GalleryScene"), {
   ssr: false,
   loading: () => (
     <div
-      className="min-h-[100dvh] flex items-center justify-center"
+      className="min-h-dvh flex items-center justify-center"
       style={{ background: "#07070f" }}
     >
       <p
@@ -26,7 +26,7 @@ const NotificationPopup = dynamic(() => import("./_components/NotificationPopup"
 
 export default function Gallery() {
   return (
-    <div className="relative w-full h-[100dvh]" style={{ background: "#07070f" }}>
+    <div className="relative w-full h-dvh" style={{ background: "#07070f" }}>
       <GalleryScene />
       <NotificationPopup />
 
